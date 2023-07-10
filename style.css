@@ -10,6 +10,7 @@
 /* Banner Section Styles*/
 .bnr-background {
     background-color: #E554731A;
+
 }
 
 .banner-container {
@@ -19,7 +20,8 @@
     width: 80%;
     margin: auto;
     padding-top: 20px;
-    /* gap: 30px; */
+    top: 100px;
+
 }
 
 .banner-title {
@@ -41,7 +43,7 @@
     line-height: 30px;
 }
 
-.bnr-btn{
+.bnr-btn {
     padding: 20px 43px;
     background-color: #E55473;
     color: #FFFFFF;
@@ -51,13 +53,74 @@
 }
 
 .bnr-image {
-    width: 335px;
-    height: 600px;
+    width: 340px;
+    height: 625px;
+
 }
 
 
 /* Our Featured Flowers Section Styles */
 
+.feature-title {
+    padding-top: 170px;
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+    
+}
+
+.feature-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 40%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.feature-image-container {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    gap: 80px;
+    text-align: center;
+}
+
+.feature-image {
+    height: 300px;
+    width: 180px;
+    background-color: #A7216226;
+    padding: 60px 60px 0px 60px;
+    border-top-right-radius: 49%;
+    border-top-left-radius: 49%;
+
+}
+.img1{
+    background-color: #A7216226;
+}
+
+.img2{
+    background-color: #0597A026;
+}
+
+.img3{
+    background-color: #477D1126;
+}
+
+.caption {
+    color: #272727;
+    text-align: center;
+    font-size: 20px;
+    text-decoration-line: underline;
+    margin-top: 20px;
+}
 
 /* Optional Section Styles */
 
