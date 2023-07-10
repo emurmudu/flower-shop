@@ -1,0 +1,75 @@
+/* Universal Section Styles */
+* {
+    margin: 0px;
+    padding: 0px;
+
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* Banner Section Styles*/
+.bnr-background {
+    background-color: #E554731A;
+}
+
+.banner-container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+    /* gap: 30px; */
+}
+
+.banner-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.banner-description {
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.bnr-btn{
+    padding: 20px 43px;
+    background-color: #E55473;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+
+}
+
+.bnr-image {
+    width: 335px;
+    height: 600px;
+}
+
+
+/* Our Featured Flowers Section Styles */
+
+
+/* Optional Section Styles */
+
+
+/* Hot Deal ! Sale Up  Section Styles  */
+
+
+/* Instagram  Section Styles*/
+
+
+/* Get The Latest Deals Styles */
+
+
+
+/* Footer Section Styles */
