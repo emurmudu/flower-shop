@@ -68,7 +68,7 @@
     font-size: 40px;
     font-weight: 800;
     line-height: normal;
-    
+
 }
 
 .feature-description {
@@ -102,15 +102,16 @@
     border-top-left-radius: 49%;
 
 }
-.img1{
+
+.img1 {
     background-color: #A7216226;
 }
 
-.img2{
+.img2 {
     background-color: #0597A026;
 }
 
-.img3{
+.img3 {
     background-color: #477D1126;
 }
 
@@ -123,7 +124,37 @@
 }
 
 /* Optional Section Styles */
+.optional-section {
+    width: 80%;
+    margin: auto;
+    height: 320px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin-top: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
 
+.optional-img {
+    width: 88px;
+    height: 88px;
+    flex-shrink: 0;
+}
+
+.optional-content {
+    text-align: center;
+
+}
+
+.optional-caption {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+}
 
 /* Hot Deal ! Sale Up  Section Styles  */
 
