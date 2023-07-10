@@ -208,22 +208,46 @@
     gap: 10px;
     color: #FFFFFF;
     border: none;
-    
+
 }
 
-.hot-deal-img {
-    
-}
+.hot-deal-img {}
 
 /* Instagram  Section Styles*/
-.instagram-images{
+.instagram-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 160px;
+    margin-bottom: 45px;
+}
+
+.instagram-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+    width: 50%;
+    margin: auto;
+}
+
+.instagram-title, .instagram-description{
+    text-align: center;
+}
+.instagram-images {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 80%;
+    margin: auto;
+    gap: 20px;
+    margin-top: 45px;
 }
 
-.insta-images{
-    
+.instagram-image {
+    width: 250px;
+    height: 300px;
 }
 
 /* Get The Latest Deals Styles */
