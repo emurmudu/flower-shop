@@ -232,16 +232,18 @@
     margin: auto;
 }
 
-.instagram-title, .instagram-description{
+.instagram-title,
+.instagram-description {
     text-align: center;
 }
+
 .instagram-images {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 80%;
     margin: auto;
-    gap: 20px;
+    gap: 26px;
     margin-top: 45px;
 }
 
@@ -251,7 +253,42 @@
 }
 
 /* Get The Latest Deals Styles */
+.latest-deal-section {
+    width: 80%;
+    margin: auto;
+    height: 450px;
+    background-image: url('asset/subscribe-pic.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
+.deal-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.deal-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.deal-subscribe {}
 
 
 /* Footer Section Styles */
