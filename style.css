@@ -5,6 +5,44 @@
 
     font-family: 'Lato', sans-serif;
 }
+/* Header Section Styles */
+.menu-container{
+    display: flex;
+    background-color: rgba(240, 43, 86, 0.150);
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.menu-list{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 20px;
+}
+
+.menu-list a{
+    text-decoration: none;
+    color: #E55473;
+    font-weight: bolder;
+}
+
+.menu-list li a:hover{
+    color:deepskyblue;
+    
+}
+
+
+.header-logo{
+    font-size: 50px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.logo-color{
+    color: #E55473;
+}
+
 
 
 /* Banner Section Styles*/
@@ -14,31 +52,41 @@
 }
 
 .banner-container {
+    background-image: url('./asset/bnr-pic1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
     display: flex;
     height: 100vh;
     align-items: center;
     width: 80%;
     margin: auto;
-    padding-top: 20px;
-    top: 100px;
+    /* gap: 10px; */
+    
 
 }
 
 .banner-title {
     color: #272727;
-    font-family: Lato;
-    font-size: 80px;
+    font-size: 54px;
+    width: 52%;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+   
+}
+
+.banner-container-left-content{
+    text-align: left;
+    padding-left: 10px;
 }
 
 .banner-description {
-    width: 80%;
+    width: 50%;
     margin-top: 30px;
     margin-bottom: 30px;
     color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 30px;
 }
@@ -169,7 +217,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60%;
+    width: 65%;
     margin: auto;
     padding-right: 20px;
 
@@ -177,7 +225,7 @@
 
 .hot-deal-title {
     color: #272727;
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 800;
     margin-bottom: 20px;
 }
@@ -194,7 +242,7 @@
     width: 70%;
     margin: auto;
     color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 30px;
     margin-bottom: 30px;
@@ -320,9 +368,6 @@
     font-weight: 700;
     line-height: normal;
 }
-
-.deal-subscribe {}
-
 
 /* Footer Section Styles */
 .footer-section {
