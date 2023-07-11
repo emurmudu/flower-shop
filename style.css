@@ -303,13 +303,13 @@
 
 /* Get The Latest Deals Styles */
 .latest-deal-section {
-    width: 83%;
+    width: 86%;
     margin: auto;
     height: 450px;
     background-image: url('asset/subscribe-pic.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-size:cover;
+    background-size:contain;
     text-align: center;
     display: flex;
     align-items: center;
