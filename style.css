@@ -13,6 +13,9 @@
     align-items: center;
     padding: 10px;
 }
+.header-logo{
+    color: rgba(39, 39, 39, 0.60);;
+}
 
 .menu-list{
     display: flex;
@@ -31,7 +34,6 @@
     color:deepskyblue;
     
 }
-
 
 .header-logo{
     font-size: 50px;
@@ -61,8 +63,6 @@
     align-items: center;
     width: 80%;
     margin: auto;
-    
-
 }
 
 .banner-title {
@@ -71,8 +71,7 @@
     width: 52%;
     font-style: normal;
     font-weight: 800;
-    line-height: normal;
-   
+    line-height: normal;  
 }
 
 .banner-container-left-content{
@@ -97,18 +96,14 @@
     border: none;
     border-radius: 8px;
     font-size: 16px;
-
 }
 
 .bnr-image {
     width: 340px;
     height: 625px;
-
 }
 
-
 /* Our Featured Flowers Section Styles */
-
 .feature-title {
     padding-top: 170px;
     color: #272727;
@@ -366,9 +361,9 @@
 /* Footer Section Styles */
 .footer-section {
     height: 350px;
-    background-color: #111010;
+    background-color:rgba(240, 43, 86, 0.150);
     text-align: center;
-    color: white;
+    color: rgba(39, 39, 39, 0.60);
 
 }
 
@@ -388,7 +383,7 @@
 }
 
 .footer-description {
-    color: rgba(255, 255, 255, 0.90);
+    color: rgba(39, 39, 39, 0.60);
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
