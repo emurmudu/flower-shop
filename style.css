@@ -12,6 +12,7 @@
     justify-content: space-around;
     align-items: center;
     padding: 10px;
+    gap: 150px;
 }
 .header-logo{
     color: rgba(39, 39, 39, 0.60);
@@ -375,7 +376,7 @@
     align-items: center;
     flex-direction: column;
     margin-top: 50px;
-    padding-top: 150px;
+    padding-top: 130px;
 }
 
 .red-flower {
